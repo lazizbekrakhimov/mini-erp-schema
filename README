@@ -6,4 +6,4 @@ Mini ERP PostgreSQL Database
 - Soft delete: deleted_at
 
 Run:
-psql -U postgres -d mini_erp -f mini_erp_schema.sql
+psql -U postgres -d mini_erp -f mini-erp-schema.sql

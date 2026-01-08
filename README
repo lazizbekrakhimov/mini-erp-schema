@@ -1,0 +1,9 @@
+Mini ERP PostgreSQL Database
+
+- DB: PostgreSQL
+- Tables: users, partners, products, sales, purchases, payments
+- Relationships: Foreign Keys ishlatilgan
+- Soft delete: deleted_at
+
+Run:
+psql -U postgres -d mini_erp -f mini_erp_schema.sql

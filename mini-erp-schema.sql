@@ -1,8 +1,8 @@
+-- \i C:/Users/User/Desktop/NodeJS/PostgreSQL/mini-erp/mini-erp-schema.sql --
+
 CREATE DATABASE mini_erp;
 
 \c mini_erp
-
--- postgres=# \i C:/Users/User/Desktop/NodeJS/PostgreSQL/mini-erp/mini-erp-schema.sql --
 
 CREATE TABLE users (
     id BIGSERIAL PRIMARY KEY,
